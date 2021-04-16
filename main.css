@@ -1,9 +1,25 @@
-body {
-    background-color: #c6d7df;
-    font-family: "Lobster";
-    padding: 3em;
-}
 
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #c6d7df;
+    font-family: "Roboto";
+    padding: 3em; 
+}}
+
+@media screen and (min-width: 800px) {
+  body {
+      background-color: #c6d7df;
+      font-family: "Monserrat";
+      padding: 3em; 
+}}
+
+  @media screen and  (min-width: 1200px) {
+    body {
+        background-color: #c6d7df;
+        font-family: "Lobster";
+        padding: 3em; 
+}}
+    
 #v0 {
     position: fixed;
     bottom: 0;
