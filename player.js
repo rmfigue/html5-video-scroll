@@ -1,4 +1,3 @@
-
         enterView({
             selector: 'section',
             enter: function(el) {
